@@ -14,6 +14,7 @@ gem 'json'
 group :assets do
   gem 'sass', '~> 3.1.0.alpha'
   gem 'coffee-script'
+  gem 'dynamic_form'
   gem 'uglifier'
 end
 
