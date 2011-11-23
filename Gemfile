@@ -20,6 +20,10 @@ end
 
 gem 'jquery-rails'
 
+group :production do
+  gem 'therubyracer-heroku', '0.8.1.pre3'
+end
+
 group :test, :development do
   gem 'rspec-rails', '~> 2.5'
 end
